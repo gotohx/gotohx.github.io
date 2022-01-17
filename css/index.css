@@ -362,7 +362,7 @@ body {
   color: #4c4948;
   font-size: 14px;
   font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
-  line-height: 2;
+  line-height: 1.3;
   -webkit-text-size-adjust: 100%;
 }
 html,
@@ -1064,8 +1064,14 @@ blockquote {
   font-weight: bold;
   color: #000;
   line-height: 1.1em;
-  margin: 1.1em 0;
+  margin: 17px 0 5px 0;
   cursor: pointer;
+}
+#post p {
+  display: block;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 #post a {
   color: #242424;
